@@ -10,14 +10,14 @@ lower = int(input("Enter the lower range"))
 upper = int(input("Enter the upper range"))
 
 # Generating random number
-rdmNum = random.randint(lower, upper)
-print(rdmNum)
+rndmNum = random.randint(lower, upper)
+print(rndmNum)
 
 guess = int(input("Guess a number: "))
 
-if rdmNum == guess:
+if rndmNum == guess:
     print("Congratulations you did it.")
-elif rdmNum > guess:
+elif rndmNum > guess:
     print("You guessed too small!")
-elif rdmNum < guess:
+elif rndmNum < guess:
     print("You Guessed too high!")
